@@ -26,25 +26,25 @@ One of the following, in order of display, should be used for creating alternati
 7. Replace i witk y.
 8. Replace y with i.
 9. Replace x with ks.
-10. Replace the past tense ending "ed" with "d".
-11. Use the full word if the protected name is an abbreviation.
+10. Use the full word if the protected name is an abbreviation.
+11. Add an underscore at the end.
 
 
 # Alternatives Under Consideration for Reserved Words
-- ? -- and
-- ? -- as
-- ? -- assert
+- and_ -- and
+- as_ -- as
+- assert_ -- assert
 - awayt -- await
 - breac -- break
 - kontinue -- continue
     - Not cont, since cont = content.
-- ? -- del
+- delete -- del
 - elyf -- elif
-- ? -- else
+- else_ -- else
 - ekscept -- except
 - finalli -- finally
-- ? -- for
-- ? -- from
+- for_ -- for
+- from_ -- from
 - yd -- id
 - yf -- if
 - ymport -- import
@@ -53,9 +53,9 @@ One of the following, in order of display, should be used for creating alternati
 - lamb -- lambda
     - Issue: 'lamb' has its own meaning.
 - nonlokal -- nonlocal
-- ? -- not
-- ? -- or
-- ? -- pass
+- not_ -- not
+- or_ -- or
+- pass_ -- pass
 - rayse -- raise
 - tri -- try
 - whyle -- while
@@ -63,7 +63,7 @@ One of the following, in order of display, should be used for creating alternati
 - yyeld -- yield
 
 # Alternatives Under Consideration for Built-in Functions
-- ? -- all
+- all_ -- all
 - ani -- any
 - askii -- ascii
 - byn -- bin
@@ -78,7 +78,7 @@ One of the following, in order of display, should be used for creating alternati
 - dyr -- dir
 - div_mod -- divmod
 - enum -- enumerate
-- ? -- eval
+- evaluate -- eval
 - fylter -- filter
 - flo -- float
 - formt -- format
@@ -89,8 +89,8 @@ One of the following, in order of display, should be used for creating alternati
 - get_attr -- getattr
 - globs -- globals
 - has_attr -- hasattr
-- ? -- hash
-- ? -- help
+- hash_ -- hash
+- help_ -- help
 - heks -- hex
 - ynput -- input
 - ynt -- int
@@ -99,29 +99,29 @@ One of the following, in order of display, should be used for creating alternati
 - yter -- iter
 - length -- len
 - lokals -- locals
-- ? -- map
+- map_ -- map
 - maks -- max
 - memo_view -- memoryview
 - myn -- min
 - nekst -- next
 - octal -- oct
-- ? -- open
+- open_ -- open
 - ordinal -- ord
 - power -- pow
 - prynt -- print
-- ? -- range
+- range_ -- range
 - reversd -- reversed
-- ? -- round
-- ? -- set
+- round_ -- round
+- set_ -- set
 - set_attr -- setattr
 - slyce -- slice
-- sortd -- sorted
+- sorted_ -- sorted
 - static_meth -- staticmethod
 - string -- str
-- ? -- sum
-- ? -- super
+- sum_ -- sum
+- super_ -- super
 - tipe -- type
-- ? -- vars
+- vars_ -- vars
 - zyp -- zip
 
 
